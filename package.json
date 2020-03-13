@@ -7,7 +7,9 @@
     "src/**/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Nothing to do for target 'build'\"",
+    "lint": "echo \"Nothing to do for target 'lint'\"",
+    "test": "echo \"Nothing to do for target 'test'\"",
     "release": "standard-version"
   },
   "keywords": [],
