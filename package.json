@@ -1,0 +1,40 @@
+{
+  "name": "@nuclearredeye/eslint-config",
+  "version": "0.0.0",
+  "description": "ESLint config to enforce my preferred code style/quality preferences",
+  "main": "./src/index.js",
+  "files": [
+    "src/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version"
+  },
+  "keywords": [],
+  "author": "NuclearRedeye",
+  "license": "MIT",
+  "homepage": "https://github.com/nuclearredeye/eslint-config#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "peerDependencies": {
+    "eslint": "6.x",
+    "eslint-plugin-import": "2.x"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.2.1",
+    "standard-version": "^7.1.0"
+  }
+}
