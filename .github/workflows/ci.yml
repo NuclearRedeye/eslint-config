@@ -1,12 +1,11 @@
 name: CI
 
-# Trigger ONLY on new version tags
 on:
   push:
 
 jobs:
   ci:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -15,7 +14,16 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Setup
         run: |
-          npm install --production
+          npm install
+      - name: Build
+        run: |
+          npm run build
+      - name: Lint
+        run: |
+          npm run lint
+      - name: Test
+        run: |
+          npm run test
       - name: Publish
         if: contains(github.ref, 'refs/tags/v')
         run: |
