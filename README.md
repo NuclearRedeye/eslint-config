@@ -7,7 +7,7 @@ A library that provides an eslint configuration for my prefered style and lintin
 Install the library, and it's peer dependencies.
 
 ```
-npm install --save-dev @nuclearredeye/eslint-config eslint eslint-plugin-import
+npm install --save-dev eslint prettier @nuclearredeye/eslint-config
 ```
 
 Then create a top level .eslintrc file, and insert the following...
@@ -21,5 +21,5 @@ Then create a top level .eslintrc file, and insert the following...
 Then run the linter...
 
 ```
-npx eslint eslint --ignore-path .gitignore ./src/**/*.js
+npx eslint --ignore-path .gitignore ./src/**/*.js
 ```
