@@ -1,5 +1,6 @@
 module.exports = {
+  extends: ['plugin:prettier/recommended'],
   rules: {
-    semi: ['error', 'always'] // https://eslint.org/docs/rules/semi
+    'prefer-const': ['error'] // https://eslint.org/docs/rules/prefer-const
   }
 };
