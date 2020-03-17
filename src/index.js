@@ -20,6 +20,7 @@ module.exports = {
         arrowParens: 'always'
       }
     ],
-    'prefer-const': ['error'] // https://eslint.org/docs/rules/prefer-const
+    'prefer-const': ['error'], // https://eslint.org/docs/rules/prefer-const
+    'no-unused-vars': ['error'] //https://eslint.org/docs/rules/no-unused-vars
   }
 };
