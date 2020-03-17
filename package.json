@@ -1,6 +1,6 @@
 {
   "name": "@nuclearredeye/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint config to enforce my preferred code style/quality preferences",
   "main": "./src/index.js",
   "files": [
