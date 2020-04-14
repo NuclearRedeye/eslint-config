@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/NuclearRedeye/eslint-config/compare/v1.0.2...v1.1.0) (2020-04-14)
+
+
+### Features
+
+* add initial typescript rules ([f30215f](https://github.com/NuclearRedeye/eslint-config/commit/f30215f41a59261cf1fc25e436b1af662f39566a))
+
+
+### Bug Fixes
+
+* duplicate rule ([2ca3cc4](https://github.com/NuclearRedeye/eslint-config/commit/2ca3cc4deb08f012915651993c1e5ce05bbeaa16))
+
 ### [1.0.2](https://github.com/NuclearRedeye/eslint-config/compare/v1.0.1...v1.0.2) (2020-03-17)
 
 
