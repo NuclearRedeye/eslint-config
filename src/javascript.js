@@ -1,3 +1,5 @@
+const prettier = require('./prettier.js');
+
 module.exports = {
   root: true,
   env: {
@@ -7,19 +9,10 @@ module.exports = {
   },
   extends: ['plugin:prettier/recommended'],
   rules: {
-    'prettier/prettier': [
-      'error',
-      {
-        tabWidth: 2,
-        printWidth: 120,
-        useTabs: false,
-        semi: true,
-        bracketSpacing: true,
-        singleQuote: true,
-        trailingComma: 'none',
-        arrowParens: 'always'
-      }
-    ],
+    // Import commom prettier rules
+    'prettier/prettier': prettier.rules,
+
+    // ESLint Rules
     'prefer-const': ['error'], // https://eslint.org/docs/rules/prefer-const
     'no-unused-vars': ['error'] //https://eslint.org/docs/rules/no-unused-vars
   }
