@@ -14,9 +14,6 @@ module.exports = {
     // Import commom prettier rules
     'prettier/prettier': prettier.rules,
 
-    // ESLint Rules
-    'prefer-const': ['error'], // https://eslint.org/docs/rules/prefer-const
-
     // Typescript Rules
     '@typescript-eslint/camelcase': 'off',
     '@typescript-eslint/no-inferrable-types': 'off'
