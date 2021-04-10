@@ -3,14 +3,9 @@ module.exports = {
   rules: [
     'error',
     {
-      tabWidth: 2,
-      printWidth: 120,
-      useTabs: false,
-      semi: true,
-      bracketSpacing: true,
+      printWidth: 240,
       singleQuote: true,
-      trailingComma: 'none',
-      arrowParens: 'always'
+      trailingComma: 'none'
     }
   ]
 };
