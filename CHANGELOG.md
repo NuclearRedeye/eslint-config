@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/NuclearRedeye/eslint-config/compare/v1.1.0...v1.1.1) (2021-04-10)
+
+
+### Bug Fixes
+
+* update prettier config ([4e1dd4a](https://github.com/NuclearRedeye/eslint-config/commit/4e1dd4ab02074fcef57cd6ce7f3485797951ee33))
+
 ## [1.1.0](https://github.com/NuclearRedeye/eslint-config/compare/v1.0.2...v1.1.0) (2020-04-14)
 
 
