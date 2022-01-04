@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.4](https://github.com/NuclearRedeye/eslint-config/compare/v1.1.3...v1.1.4) (2022-01-04)
+
+
+### Bug Fixes
+
+* update standard-version to 9.3.2 ([057db66](https://github.com/NuclearRedeye/eslint-config/commit/057db66ef3ac70f7aeb620ab5d0ba88f59c75df9))
+
 ### [1.1.3](https://github.com/NuclearRedeye/eslint-config/compare/v1.1.2...v1.1.3) (2021-04-10)
 
 
